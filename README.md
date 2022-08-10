@@ -7,5 +7,4 @@ Welcome to my project, this project is a continuation from previous project. You
 This project is created as a final project of binar chapter 4 and as a requirement to finish the chapter.
 © Copyright by Ilfan Alwirudin 2022. You can use, copy, and redistribute this program, but you must disclose the source. Read LICENSE for further details.
 
-
 =======
