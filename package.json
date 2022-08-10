@@ -1,0 +1,19 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/ilfanalwirudin.git"
+  },
+  "author": "ilfanalwirudin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/ilfanalwirudin/issues"
+  },
+  "homepage": "https://github.com/github.com/ilfanalwirudin#readme"
+}
