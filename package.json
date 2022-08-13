@@ -2,8 +2,10 @@
   "name": "challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/github.com/ilfanalwirudin/issues"
   },
-  "homepage": "https://github.com/github.com/ilfanalwirudin#readme"
+  "homepage": "https://github.com/github.com/ilfanalwirudin#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "pnpm": "^7.9.0",
+    "uuid": "^8.3.2",
+    "yarn": "^1.22.19"
+  }
 }

@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "ifan",
+    "password": "rahasia"
+  },
+
+  {
+    "id": 2,
+    "name": "player",
+    "password": "pL4Y3r"
+  },
+
+  {
+    "id": 3,
+    "name": "admin",
+    "password": "admin"
+  }
+]
