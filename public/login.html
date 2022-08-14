@@ -1,22 +1,31 @@
-<div class="login">
-  <div class="heading">
-    <h2>Sign in</h2>
-    <form action="#">
-      <div class="input-group input-group-lg">
-        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Username or email"
-        />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <main>
+      <div class="center">
+        <h1>Login</h1>
+        <form action="#" method="post" id="login">
+          <div class="txt-field">
+            <input type="username" required />
+            <label for="username" class="">Username</label>
+          </div>
+          <div class="txt-field">
+            <input type="password" required />
+            <label for="password" class="">Password</label>
+            <div class="forget">Forgot Password?</div>
+          </div>
+          <input type="submit" value="Login" />
+          <div class="signup_link"></div>
+          Not a member? <a href="#">Sign up</a>
+        </form>
       </div>
-
-      <div class="input-group input-group-lg">
-        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-        <input type="password" class="form-control" placeholder="Password" />
-      </div>
-
-      <button type="submit" class="float">Login</button>
-    </form>
-  </div>
-</div>
+    </main>
+  </body>
+</html>
