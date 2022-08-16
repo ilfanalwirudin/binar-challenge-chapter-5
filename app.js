@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(indexRouter);
 app.use(gameRouter);
 app.use(loginRouter);
-app.use(apiRouter);
+app.use("/user", apiRouter);
 
 //use logger middleware
 app.use(morgan("tiny"));
