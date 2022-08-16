@@ -4,16 +4,17 @@ const router = express();
 router.use(express.Router());
 router.use(express.json());
 
-router.get("/", (req, res) => {
+router.get("/home", (req, res) => {
   const name = req.query.name;
-  res.render("index", { title: "Traditional Games", name: name });
+  console.log(name);
+  res.render("index");
 });
 
-router.post("/", (req, res) => {
+router.post("/home", (req, res) => {
   const user = req.query;
   console.log(user);
 
-  res.render("index", { title: "Traditional Games", name: user.name });
+  res.render("index");
 });
 
 export default router;
