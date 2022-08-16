@@ -1,11 +1,9 @@
 import express from "express";
-import fs from "fs";
+
 import bodyParser from "body-parser";
 import users from "../users.json" assert { type: "json" };
-import lodash from "lodash";
 
 const router = express();
-const _ = lodash;
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: false }));
 router.use(express.Router());
