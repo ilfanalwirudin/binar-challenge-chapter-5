@@ -7,14 +7,9 @@ app.use(express.Router());
 app.use(express.json());
 
 // Get /user
-app.get("/user", (req, res) => res.json(users));
-app.get("/user/:id", (req, res) => {
-  const user = users.find((item) => item.id === +req.params.id);
-  if (user) {
-    res.status(200).json(user);
-  } else {
-    res.status(200).send("ID not found");
-  }
+
+app.get("/user", (req, res) => {
+  res.status(200).json(users);
 });
 
 //Post /user
