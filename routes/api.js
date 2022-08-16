@@ -18,17 +18,17 @@ app.get("/user/:id", (req, res) => {
 });
 
 // Post /user
-app.post("/user", (req, res) => {
-  const { username, password } = req.body;
-  const id = users.id + 1;
-  const user = {
-    id,
-    username,
-    password,
-  };
+// app.post("/user", (req, res) => {
+//   const { username, password } = req.body;
+//   const id = users.id + 1;
+//   const user = {
+//     id,
+//     username,
+//     password,
+//   };
 
-  users.push(user);
-  res.status(201).json(user);
-});
+//   users.push(user);
+//   res.status(201).json(user);
+// });
 
 export default app;
