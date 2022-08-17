@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "4068b925-8a8b-49e4-baf9-ab9acc731341",
+		"name": "ilfan-binar-challenge-5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22678474"
+	},
+	"item": [
+		{
+			"name": "get & post api",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2\r\n    \"username\": \"admin\"\r\n    \"password\": \"admin\"\r\n}"
+				},
+				"url": {
+					"raw": "https://ilfan-binar-challenge-5.herokuapp.com/user",
+					"protocol": "https",
+					"host": [
+						"ilfan-binar-challenge-5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
