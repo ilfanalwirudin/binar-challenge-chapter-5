@@ -14,6 +14,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{secrets.62e8730a-25fe-44a8-bb12-a829e9946b37}}
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "binar-challenge-5" #Must be unique in Heroku
           heroku_email: "ilfanrohmania@gmail.com"
