@@ -17,9 +17,9 @@ router.post("/login", (req, res) => {
     req.body.username == users[0].username &&
     req.body.password == users[0].password
   ) {
-    res.redirect("/home");
+    res.status(300).redirect("/home");
   } else {
-    res.end("Invalid Username or Password");
+    res.status(400).end("Invalid Username or Password");
   }
 });
 
