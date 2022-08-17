@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Get /user
 
-app.get("/user", (req, res) => {
+app.get("/user", async (req, res) => {
   res.status(200).json(users);
 });
 
